@@ -1,0 +1,65 @@
+/* Minecraft font! */
+@font-face {
+	font-family: 'minecraft-font';
+	src: url('Minecraft.ttf');
+}
+
+body {
+	color: #fff;
+	margin: 0 auto;
+	max-width: 50em;
+	font-family: 'minecraft-font';
+	line-height: 1.5;
+	padding: 4em 1em;
+	background: linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ), url('daftpunk.gif') no-repeat fixed center center / cover;
+}
+
+h2 {
+	color: #fdf;
+	text-shadow: 0 0 4px #ff91d5;
+	font-size: 2rem;
+	margin-top: 1em;
+	padding-top: 1em;
+}
+
+p {
+	color: #fdf;
+	font-size: 1.25rem;
+	text-shadow: 0 0 1px #fdf;
+	letter-spacing: 1px;
+}
+
+strong {
+	color: #fdf;
+	font-size: 1.125rem;
+	text-shadow: 0 0 1px #fdf;
+}
+
+img {
+	margin-top: 0.2rem;
+	max-width: 30%;
+	height: auto;
+	opacity: 0.6;
+	border-radius: 50%;
+}
+
+#bebito {
+	position: relative;
+	left: 15%;
+}
+
+#bebita {
+	position: relative;
+	right: 0%;
+}
+
+#minecraft-hardcore-heart {
+	position: relative;
+	left: 7.5%;
+	max-width: 20%;
+	opacity: 0.7;
+	border-radius: 0;
+}
